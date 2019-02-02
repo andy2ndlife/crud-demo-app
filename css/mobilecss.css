@@ -1,0 +1,57 @@
+#deletepanel-popup {
+    right: 0 !important;
+    left: auto !important;
+}
+#deletepanel {
+    width: 200px;
+    border: 1px solid #000;
+    border-right: none;
+    background: rgba(0,0,0,.7);
+    margin: -1px 0;
+}
+
+.white {	color: #FFFFFF; font-weight: bold;}
+.black { color: #000000; font-weight: bold;}
+.ui-page{
+	background-image: url("../images/wood.jpg");
+	background-attachment:fixed;
+	background-repeat: repeat;
+	background-size: 100%;
+	background-color: transparent !important;
+}
+.ui-content-transparent{
+	background: transparent !important;
+}
+.ui_body_error{
+	border:1px solid #F7503A;
+	color:#333;text-shadow:0 1px 0 #fff;
+	background:#FBB99E;
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#FBB99E));
+	background-image:-webkit-linear-gradient(top,#fff,#FBB99E);
+	background-image:-moz-linear-gradient(top,#fff,#FBB99E);
+	background-image:-ms-linear-gradient(top,#fff,#FBB99E);
+	background-image:-o-linear-gradient(top,#fff,#FBB99E);
+	background-image:linear-gradient(top,#fff,#FBB99E);
+}
+
+.ui_body_success{
+	border:1px solid #24AF11;
+	color:#333;text-shadow:0 1px 0 #fff;
+	background:#89F07C;
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#89F07C));
+	background-image:-webkit-linear-gradient(top,#fff,#89F07C);
+	background-image:-moz-linear-gradient(top,#fff,#89F07C);
+	background-image:-ms-linear-gradient(top,#fff,#89F07C);
+	background-image:-o-linear-gradient(top,#fff,#89F07C);
+	background-image:linear-gradient(top,#fff,#89F07C);
+}
+.alpha60 {
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(0, 0, 0);
+	/* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 0, 0.6);
+	/* For IE 5.5 - 7*/
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	/* For IE 8*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
